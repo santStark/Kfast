@@ -1,5 +1,5 @@
 # Kfast
-Projeto React com Next.js usando Typescript feito com o entuito de por em prática
+Projeto React com Next.js usando Typescript feito com o intuito de por em prática
 ensinamentos aprendidos com react.
 
 # Instalação
