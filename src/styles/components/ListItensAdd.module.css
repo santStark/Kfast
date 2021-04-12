@@ -1,0 +1,124 @@
+.listItensAddContainer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: calc(30% - 1rem );
+    margin-top: 1rem;
+    border: 1px solid var(--shadow);
+    border-radius: 5px;
+    background: var(--white);
+    padding-left: 1rem;
+
+    overflow-y: hidden;
+
+}
+
+
+.listItensAddContainer .blockItemAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+
+    border:1px solid var(--shadow);
+    border-radius: 5px;
+
+    width: 6rem;
+    min-height: 6rem;
+    height: 8rem;
+    margin-right: 1rem;
+    padding: 0.1rem;
+}
+
+.listItensAddContainer .blockItemAdd img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.listItensAddContainer .blockItemAdd div{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem;
+   
+}
+
+.listItensAddContainer .blockItemAdd div span{
+
+    font-size: 0.8rem;
+
+}
+
+.listItensAddContainer .blockItemAdd:hover{
+    cursor: pointer;
+    border-color: var(--greenHover);
+    background: rgb(186 241 125 / 17%);
+    border-radius: 5px;
+}
+
+.listItensAddContainer .btnItemAdd{
+    position: absolute;
+    top:-7px;
+    right: -7px;
+    border:0;
+    color:white;
+    background: var(--red);
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    padding: 0px;   
+    
+}
+
+.blockAllItensAdd{
+
+    width: calc(100% - 150px);
+    height: 100%;
+    border-right: 1px solid var(--shadow);
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.blockTotItensAdd{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.blockTotItensAdd strong{
+
+    font-size: 1.3rem;
+
+}
+
+.blockTotItensAdd button{
+    display: flex;
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    border:0;
+    margin-top:1rem;
+    box-shadow: 0px 1px 3px var(--shadow);
+    align-items: center;
+    justify-content: center;
+}
+
+.blockTotItensAdd button:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 3px #0da719;
+    background: #bfffb9;
+    color: green;
+}

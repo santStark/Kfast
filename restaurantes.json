@@ -1,0 +1,80 @@
+[
+    {
+        "name":"Restaurante 1",
+        "img":"/res1.jpg",
+        "abre":"10:00",
+        "fecha":"19:00",
+        "itens":[
+            {
+                "item":"R1 Item 1",
+                "img":"/prato1.jpg",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":10.10
+            },
+            {
+                "item":"R1 Item 2",
+                "img":"/prato2.png",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":0.10
+            },
+            {
+                "item":"R1 Item 3",
+                "img":"/prato3.jpg",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":15.10
+            }
+        ]
+    },
+    {
+        "name":"Restaurante 2",
+        "img":"/res2.jpg",
+        "abre":"19:00",
+        "fecha":"23:00",
+        "itens":[
+            {
+                "item":"R2 Item 1",
+                "img":"/prato1.jpg",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":20.10
+            },
+            {
+                "item":"R2 Item 2",
+                "img":"/prato2.png",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":0.20
+            },
+            {
+                "item":"R2 Item 3",
+                "img":"/prato3.jpg",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":25.10
+            }
+        ]
+    },
+    {
+        "name":"Restaurante 3",
+        "img":"/res3.jpg",
+        "abre":"10:00",
+        "fecha":"19:00",
+        "itens":[
+            {
+                "item":"R3 Item 1",
+                "img":"/prato1.jpg",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":30.10
+            },
+            {
+                "item":"R3 Item 2",
+                "img":"/prato2.png",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":0.30
+            },
+            {
+                "item":"R3 Item 3",
+                "img":"/prato3.jpg",
+                "desc":"Arroz, bife acebolado, tomate, batata frita",
+                "valor":35.10
+            }
+        ]
+    }
+]

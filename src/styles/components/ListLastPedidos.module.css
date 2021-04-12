@@ -1,0 +1,62 @@
+.listLastPedidosContainer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: calc(30% - 1rem );
+    margin-top: 1rem;
+    border: 1px solid var(--shadow);
+    border-radius: 5px;
+    background: var(--white);
+    padding-left: 1rem;
+
+    overflow-y: hidden;
+
+}
+
+
+.listLastPedidosContainer .blockLastPedido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    border:1px solid var(--shadow);
+    border-radius: 5px;
+
+    width: 6rem;
+    min-height: 6rem;
+    height: 8rem;
+    margin-right: 1rem;
+    padding: 0.1rem;
+}
+
+.listLastPedidosContainer .blockLastPedido img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.listLastPedidosContainer .blockLastPedido div{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.listLastPedidosContainer .blockLastPedido div span{
+
+    font-size: 0.8rem;
+
+}
+
+.listLastPedidosContainer .blockLastPedido:hover{
+    cursor: pointer;
+    border-color: var(--greenHover);
+    background: rgb(186 241 125 / 17%);
+    border-radius: 5px;
+}
